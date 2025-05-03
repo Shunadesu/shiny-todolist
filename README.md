@@ -1,12 +1,69 @@
-# React + Vite
+# To-Do List & Calendar App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern productivity app built with **React**, **Redux Toolkit**, **TailwindCSS**, and **Vite**.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Sidebar with task filters, lists, and tags
+- Add, edit, delete tasks with due date, start/end time, subtasks, tags
+- Calendar view (day mode) with 24-hour scrollable timeline
+- Tasks appear in both list and calendar, always in sync
+- Data is saved to your browser's **localStorage** (auto-persistent)
+- Responsive, clean UI with TailwindCSS
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clone the repository
+
+```bash
+git clone <your-repo-url>
+cd todolist
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the development server
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## 📝 Usage
+
+- **Add Task:** Use the form in the center to add a task. You can set date, start hour, end hour.
+- **View Calendar:** Click "Calendar" in the sidebar to see all tasks by hour (scrollable 24h).
+- **Edit/Delete:** Click a task to edit details or delete.
+- **Lists/Tags:** Organize tasks by lists and tags. Add new lists/tags in the sidebar.
+- **Data Persistence:** All your data is saved in your browser (localStorage).
+
+## 🛠️ Built With
+
+- [React](https://react.dev/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
+
+## 📦 Project Structure
+
+```
+src/
+  components/      # Sidebar, TaskList, TaskDetails, CalendarView
+  features/todos/  # Redux slice for todos
+  app/             # Redux store
+  App.jsx          # Main layout
+  main.jsx         # Entry point
+```
+
+## 📄 License
+
+MIT
+
+---
+
+**Author:** Your Name
