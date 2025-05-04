@@ -16,7 +16,7 @@ A modern productivity app built with **React**, **Redux Toolkit**, **TailwindCSS
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone <>
 cd todolist
 ```
 
@@ -66,4 +66,4 @@ MIT
 
 ---
 
-**Author:** Your Name
+**Author:** Sunny.pnhn
